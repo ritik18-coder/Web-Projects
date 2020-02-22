@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Current Date & Time</title>
+</head>
+<body>
+	<script type="text/javascript">
+		d=new Date()
+		hour=d.getHours()
+		min=d.getMinutes()
+		day=d.getDay()
+		daylist=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+		if(hour==0)
+			document.write(`Now the Time is : 12:${min}AM and Today is ${daylist[day]}`)
+		else if(hour<12)
+			document.write(`Now the Time is : ${hour}:${min}AM and Today is ${daylist[day]}`)
+		else if(hour==12)
+			document.write(`Now the Time is : 12:${min}PM and Today is ${daylist[day]}`)
+		else
+			document.write(`Now the Time is : ${(hour-12)}:${min}PM and Today is ${daylist[day]}`)
+	</script>
+</body>
+</html>
