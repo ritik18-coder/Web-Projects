@@ -1,0 +1,78 @@
+/+-<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+    <div class="nav">
+        <!-- <span class="circle"></span> -->
+        <svg class="circle"></svg> 
+        <ul class="feature-list">
+           <li><a href="#sec1">Home</a></li> 
+           <li><a href="#sec2">Skills</a></li>
+           <li><a href="#sec3">academics</a></li>
+           <li><a href="#sec4">projects</a></li>
+           <li><a href="#sec5">Skills</a></li>
+        </ul>
+    </div>
+    <section class="sec" >
+        <div class="portfolio-box card">
+            <h1 class="box-title" >Submit your details</h1>  
+            <hr>
+            <form action="">
+                <script src="script.js"></script>
+                <fieldset>
+                    <legend><h4 class="sub-detail-card">Personal Information</h4></legend>
+                    <label for="firstname">First name</label>
+                    <input class="normal-input" type="text" id="firstname" name="firstname" placeholder="Enter your first name"><br>
+                    <label for="lastname">Last name </label>
+                    <input class="normal-input" id="lastname" type="text" name="lastname" placeholder="Enter your last name"><br>
+                    <label for="email">Email ID </label>
+                    <input type="email" id="email" class="email-input" placeholder="Enter your Email ID"><br>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="normal-input" placeholder="Enter Your Password"><br>
+                    <label for="repeatPassword">Repeat Password</label>
+                    <input type="password" id="repeatPassword" class="password-input" placeholder="Enter Your Password again" required><br>
+
+                </fieldset>
+                <fieldset>
+                    <legend><h4 class="sub-detail-card">Academic Information</h4></legend>
+                    <label for="BranchAndYear">Branch and Year:</label>
+                    <select name="Branch" class="BranchAndYear">
+                        <option value="CSE">CSE</option>
+                        <option value="IT">IT</option>
+                        <option value="ECE">ECE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="ME">ME</option>
+                        <option value="Civil">Civil</option>
+                    </select>
+                    <select name="Branch" class="BranchAndYear">
+                        <option value="1">1st</option>
+                        <option value="2">2nd</option>
+                        <option value="3">3rd</option>
+                        <option value="4">4th</option>
+                    </select>
+                    <br><br>
+                    Interest:
+                    <input list="Interest" name="Interest" required>
+                    <datalist id="Interest">
+                        <option value="AI">
+                        <option value="IOT">
+                        <option value="ML">
+                        <option value="DL">
+                        <option value="Web Dev">
+                        <option value="Android Dev">
+                        <option value="Cloud Coumputing">
+                    </datalist>
+                </fieldset>
+                <input class="submit" type="submit" value="Submit Here" onclick="return validation();">
+                  
+            </form>
+        </div>
+        
+    </section>
+    
+</body>
+</html>
