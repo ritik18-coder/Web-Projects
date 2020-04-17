@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<top_movies>
+<movie>
+<rank>1</rank>
+<title>Citizen Kane</title>
+<year>1941</year>
+<rating>100%</rating>
+<director>Orson Welles</director>
+</movie>
+<movie>
+<rank>2</rank>
+<title>The Godfather</title>
+<year>1972</year>
+<rating>97%</rating>
+<director>Francis Ford Coppola</director>
+</movie>
+<movie>
+<rank>3</rank>
+<title>Gone with the Wind</title>
+<year>1939</year>
+<rating>96%</rating>
+<director>Victor Fleming</director>
+</movie>
+<movie>
+<rank>4</rank>
+<title>The Graduate</title>
+<year>1967</year>
+<rating>91%</rating>
+<director>Mike Nicholis</director>
+</movie>
+<movie>
+<rank>5</rank>
+<title>Inception</title>
+<year>2010</year>
+<rating>84%</rating>
+<director>ChristopherNolan</director>
+</movie>
+<movie>
+<rank>6</rank>
+<title>Predestination</title>
+<year>2014</year>
+<rating>82%</rating>
+<director>Michael Spierig</director>
+</movie>
+<movie>
+<rank>7</rank>
+<title>Searching</title>
+<year>2015</year>
+<rating>79%</rating>
+<director>Aneesh Chaganty</director>
+</movie>
+</top_movies>
