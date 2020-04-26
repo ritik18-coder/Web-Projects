@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Multiplication Table</title>
+  <script type="text/javascript">
+    var rows = prompt("Enter the No. of rows for your multiplication table.");
+    var cols = prompt("Enter the No. of columns for your multiplication table");
+    if(rows == "" || rows == null)
+   		 rows = 10;
+    if(cols== "" || cols== null)
+   		 cols = 10;
+    createTable(rows, cols);
+    function createTable(rows, cols)
+    {
+      var j=1;
+      var output = "<br><br><center><table border='2' width=500px cellspacing='2'cellpadding='5' style=\"border-color: black;\"></center>";
+      for(i=1;i<=rows;i++)
+      {
+    	output = output + "<tr>";
+        while(j<=cols)
+        {
+  		  output = output + "<td>" + i*j + "</td>";
+   		  j = j+1;
+   		}
+   		 output = output + "</tr>";
+   		 j = 1;
+    }
+    output = output + "</table>";
+    document.write(output);
+    }
+  </script>
+</head>
+<body style="background-image:  url('https://wallpapercave.com/wp/wp3961589.png');background-size: cover;height: 100%;">
+  <table style="bo"></table>
+</body>
+</html>
