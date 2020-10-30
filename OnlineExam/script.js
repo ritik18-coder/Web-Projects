@@ -21,5 +21,5 @@ function exam(form)
         i+=1
     if(form.q10[0].checked)
         i+=1
-    alert("Thank You For Taking This Online Exam! Your Score is: "+i)
+    alert("Thank You Very Much giving This Online Exam! Your Score is: "+i)
 }
